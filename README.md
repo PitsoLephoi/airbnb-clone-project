@@ -21,5 +21,5 @@ The Airbnb Clone Project is a learning-focused initiative designed to simulate t
 
 - Tools: Git, Docker, GitHub Actions
 
-Set up CI/CD pipelines for testing and deployment.
+- Set up CI/CD pipelines for testing and deployment.
 
