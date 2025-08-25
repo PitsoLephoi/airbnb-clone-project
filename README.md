@@ -29,8 +29,7 @@ The Airbnb Clone Project is a learning-focused initiative designed to simulate t
 
 ---
 
-**Team Roles
-**
+**Team Roles**
 - Backend Developer – Implements APIs, business logic, and ensures smooth communication between the app and the database.
 
 - Database Administrator (DBA) – Designs, manages, and optimizes the database for performance and reliability.
@@ -58,8 +57,7 @@ The Airbnb Clone Project is a learning-focused initiative designed to simulate t
 - GitHub Actions – A CI/CD tool used to automate testing, integration, and deployment workflows.
 
 ---
-**Database Design
-**
+**Database Design**
 For this project, the database will have a few main entities:
 
 - Users --->
@@ -95,8 +93,9 @@ For this project, the database will have a few main entities:
 - Each booking has one payment attached to it.
 
 ---
-**Feature Breakdown
-**
+
+**Feature Breakdown**
+
 - User Management ---> lets people sign up, log in, and manage their profiles. This is important because without users, the app can’t have hosts or guests.
 
 - Property Management ---> allows hosts to add, edit, and remove property listings. This makes it possible for guests to see available places to book.
@@ -107,8 +106,9 @@ For this project, the database will have a few main entities:
 
 - Payments ---> processes transactions for bookings. This ensures that hosts get paid and guests have a secure way to pay.
 ---
-**API Security
-**
+
+**API Security**
+
 - Authentication ---> makes sure only registered users can log in and use the system. This protects user accounts from unauthorized access.
 
 - Authorization ---> controls what different users (guest or host) are allowed to do. For example, only hosts can add properties.
@@ -117,8 +117,9 @@ For this project, the database will have a few main entities:
 
 - Data Protection ---> sensitive data like passwords and payment info must be encrypted. This keeps private information safe.
 ---
-**CI/CD Pipeline
-**
+
+**CI/CD Pipeline**
+
 - A CI/CD pipeline automates the process of testing and deploying code so developers don’t have to do it manually each time. This makes development faster and reduces errors.
 
 - GitHub Actions ---> can run automated tests whenever new code is pushed.
