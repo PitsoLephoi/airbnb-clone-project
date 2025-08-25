@@ -95,4 +95,35 @@ For this project, the database will have a few main entities:
 - Each booking has one payment attached to it.
 
 ---
+**Feature Breakdown
+**
+- User Management ---> lets people sign up, log in, and manage their profiles. This is important because without users, the app can’t have hosts or guests.
 
+- Property Management ---> allows hosts to add, edit, and remove property listings. This makes it possible for guests to see available places to book.
+
+- Booking System ---> enables guests to book properties for specific dates. This is the main feature of the app since it connects guests with hosts.
+
+- Reviews ---> lets guests leave ratings and comments on properties. This builds trust and helps future guests make informed choices.
+
+- Payments ---> processes transactions for bookings. This ensures that hosts get paid and guests have a secure way to pay.
+---
+**API Security
+**
+- Authentication ---> makes sure only registered users can log in and use the system. This protects user accounts from unauthorized access.
+
+- Authorization ---> controls what different users (guest or host) are allowed to do. For example, only hosts can add properties.
+
+- Rate Limiting ---> prevents too many requests from one user or bot. This helps stop misuse of the system and keeps it running smoothly.
+
+- Data Protection ---> sensitive data like passwords and payment info must be encrypted. This keeps private information safe.
+---
+**CI/CD Pipeline
+**
+- A CI/CD pipeline automates the process of testing and deploying code so developers don’t have to do it manually each time. This makes development faster and reduces errors.
+
+- GitHub Actions ---> can run automated tests whenever new code is pushed.
+
+- Docker ---> makes sure the app runs the same way on every computer.
+
+- CI/CD Benefits ---> saves time, makes deployments easier, and helps catch bugs early.
+---
