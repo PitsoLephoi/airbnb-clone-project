@@ -23,3 +23,18 @@ The Airbnb Clone Project is a learning-focused initiative designed to simulate t
 
 - Set up CI/CD pipelines for testing and deployment.
 
+Team Roles
+
+- Backend Developer – Implements APIs, business logic, and ensures smooth communication between the app and the database.
+
+- Database Administrator (DBA) – Designs, manages, and optimizes the database for performance and reliability.
+
+- Quality Assurance (QA) Engineer – Creates and runs tests to detect bugs early and ensure software quality.
+
+- DevOps Engineer – Manages infrastructure, CI/CD pipelines, and deployment for scalable, reliable operations.
+
+- Project Manager (PM) – Oversees timelines, coordinates tasks, and ensures alignment with project goals.
+
+- Software Architect – Defines the system architecture, chooses technologies, and enforces coding standards.
+
+
