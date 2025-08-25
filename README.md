@@ -58,4 +58,41 @@ The Airbnb Clone Project is a learning-focused initiative designed to simulate t
 - GitHub Actions – A CI/CD tool used to automate testing, integration, and deployment workflows.
 
 ---
+**Database Design
+**
+For this project, the database will have a few main entities:
+
+- Users --->
+
+ [Fields: id, name, email, role (guest or host)]
+
+- Properties --->
+
+[Fields: id, host_id, title, location, price]
+
+- Bookings --->
+
+[Fields: id, user_id, property_id, start_date, end_date]
+
+- Reviews --->
+
+[Fields: id, user_id, property_id, rating, comment]
+
+- Payments --->
+
+[Fields: id, booking_id, amount, status]
+
+<---How they connect--->
+
+- A user can be a guest or a host.
+
+- A host can have many properties.
+
+- A guest can make many bookings, but each booking is for one property.
+
+- A property can have many reviews, and reviews come from users.
+
+- Each booking has one payment attached to it.
+
+---
 
